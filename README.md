@@ -1,8 +1,10 @@
-# DavisBase
+# Jaisu-DB
+
+This Project has been Implemented and Designed as a Capstone Project for the class DataBase Design by Chris Davis , hence the name DavisBase for the project.
+
 
 Language Used:
 Java 1.8
-
 
 How to compile and run?
 
