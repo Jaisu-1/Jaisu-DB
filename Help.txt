@@ -1,0 +1,39 @@
+		case "help":
+			System.out.println();
+			System.out.println("List of all DavisBase commands:");
+			System.out.println("1.DDL Commands:");
+			System.out.println(
+					"\t(a)SHOW TABLES;                                                   Displays a list of all tables in DavisBase");
+			System.out.println(
+					"\t(b)CREATE TABLE <table_name>;                                     Creates a new table schema, i.e. a new empty table");
+			System.out.println(
+					"\t(c)DROP TABLE <table_name>;                                       Remove a table schema, and all of its contained data");
+			System.out.println();
+			System.out.println("2.DML Commands:");
+			System.out.println(
+					"\t(a)INSERT INTO table_name [column_list] VALUES value_list;        Inserts a single record into a table");
+			System.out.println(
+					"\t(b)DELETE FROM TABLE table_name WHERE [condition];                Removes a particular record based on condition");
+			System.out.println(
+					"\t(c)UPDATE table_name SET column_name = value WHERE [condition];   Modifies one or more records in a table");
+			System.out.println();
+			System.out.println("3.VDL Commands: ");
+			System.out.println(
+					"\t(a)SELECT * FROM <table_name>;                                    Display all records in the table");
+			System.out.println(
+					"\t(b)SELECT * FROM <table_name> WHERE rowid = <value>;              Display records satisfying a particular condition");
+			System.out.println();
+			System.out.println(
+					"4.CREATE DATABASE <database_name>;                                        Creates a database");
+			System.out.println();
+			System.out.println(
+					"5.SHOW DATABASES;                                                         Shows the list of all databases");
+			System.out.println();
+			System.out.println(
+					"6.DROP DATABASE <database_name>;                                          Deletes a database");
+			System.out.println();
+			System.out.println(
+					"7.EXIT;                                                                   Exit the program");
+			System.out.println();
+			System.out.println(
+					"8.HELP;                                                                   Show this help information");
