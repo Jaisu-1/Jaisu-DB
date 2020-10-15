@@ -1,6 +1,6 @@
 # Jaisu-DB
 
-This Project has been Implemented and Designed as a Capstone Project for the class DataBase Design by Chris Davis , hence the name DavisBase for the project.
+This Project has been Implemented and Designed as a Capstone Project for the class DataBase Design by Chris Davis , hence the name DavisBase for the project. But this is entirely created from scratch by me, Jaisurya.
 
 
 Language Used:
